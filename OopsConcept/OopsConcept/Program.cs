@@ -7,7 +7,8 @@
             ClassName name = new ClassName();
             name.PrintName();
             name.PrintType("Khamisha");
-            // It will hold the key until the key is pressed
+            Constructor obj = new Constructor("Khamishabnv");
+          // It will hold the key until the key is pressed
             Console.ReadKey();
         }
     }
