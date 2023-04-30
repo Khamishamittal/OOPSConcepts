@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OopsConcept
 {
-    public class Constructor
+    public class Constructor:InterfaceType
     {
         
         // It is non parameterized constructor doesnot have return type and same name as class name
@@ -19,6 +19,12 @@ namespace OopsConcept
         {
             Console.WriteLine(name);
 
+        }
+
+        public void WithoutImplementationMethod()
+        {
+            // throw new NotImplementedException();
+            Console.WriteLine("Hi there");
         }
     }
 }

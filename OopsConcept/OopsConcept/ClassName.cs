@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 namespace OopsConcept
 {
     public class ClassName
-    { 
-      
-        //Non parameterized method
+    {
+
+
+       // Non parameterized method
         public void PrintName()
         {
             Console.WriteLine("Khamisha Mittal");
@@ -18,8 +19,14 @@ namespace OopsConcept
         {
             Console.WriteLine(name);
         }
+
+        public void WithoutImplementationMethod()
+        {
+            //throw new NotImplementedException();
+            Console.WriteLine("This is my another class classname.cs");
+        }
     }
 }
 
-    
+
 
